@@ -1,7 +1,16 @@
 
+body {
+    max-width: 768px;
+    box-shadow: 0 0 10px #000;
+    margin: 0 auto;
+}
+
+/*Title*/
+
 .title {
     width: 50%;
-    margin: 100px auto 0 auto;
+    margin: 20px auto 0 auto;
+    padding: 40px 0 0 0;
 }
 
 .title h1 {
@@ -13,4 +22,18 @@
     font-weight: 300;
     font-family: 'Beau Rivage', cursive;
     font-size: 28px;
+}
+
+/*content*/
+
+.content {
+    width: 50%;
+    font-size: 22px;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+}
+
+.content p {
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
 }
