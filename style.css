@@ -29,11 +29,20 @@ body {
 .content {
     width: 50%;
     font-size: 22px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto;
     padding-bottom: 20px;
 }
 
 .content p {
     width: 100%;
     font-family: 'Roboto Slab', serif;
+}
+
+/*footer*/
+
+.footer {
+    margin: 0 0 30px 100px;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
